@@ -1,0 +1,150 @@
+body{
+    background-color: rgba(0, 0, 0, 0.897);
+
+
+}
+
+
+
+
+tr.topinfo td.clube{
+    font-weight: bold;
+
+}tr.time1 td{
+    font-size: medium;
+    background-color: rgba(0, 0, 255, 0.210);
+
+    
+
+}tr.time2 td{
+    font-size: medium;
+    background-color: rgba(255, 166, 0, 0.315);
+}tr.time3 td{
+    font-size: medium;
+    background-color: rgba(0, 128, 0, 0.300);
+}tr.time4 td{
+    background-color: rgba(255, 0, 0, 0.300);
+}tr.time5 td{
+    font-size: medium;
+}
+
+.numero{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 8px;
+}
+
+tr.time td,
+tr.topinfo td{
+    font-size: large;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+img.imgclube{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+td.clubeazul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-left: 5px solid blue;
+}
+td.clubelaranja{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-left: 5px solid orange;
+}
+td.clubeverde{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-left: 5px solid green;
+}
+td.clubecinza{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-left: 5px solid grey;
+}
+td.clubevermelho{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-left: 5px solid red;
+}
+
+.botafogo td,
+.palmeiras td{
+    padding: 10px;
+}
+
+.maintabela tr{
+    border-bottom: 1px solid black;
+
+}tr.time.borda-azul{
+    border-left: 5px solid blue;
+
+}
+
+table tfoot{
+    border: 1px solid #3c4043;
+}
+div.quadrado{
+    width: 5px;
+    height: 10px;
+    color: blue;
+}
+
+.legenda table{
+    width: 700px;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e9eaeb;
+    border-radius: 3px;
+    padding: 15px;
+    text-align: left;
+    background-color: gray;
+}
+
+caption{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+table.maintabela{
+    border: 2px solid black;
+    background-color: #9aa0a6;
+    margin: auto;
+    width: 60%; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+.legenda th{
+    font-size: 1.1em;
+    color: #000;
+    font-weight: 700;
+}
+
+.legenda img{
+    width: 10px;
+}
+
+.legenda td{
+    border-top: none;
+    font-size: 1.1em;
+    height: 3px;
+    width: 70%;
+}
